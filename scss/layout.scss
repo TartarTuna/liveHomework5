@@ -1,0 +1,64 @@
+@import "variable";
+
+
+.container {
+  height: 100%;
+}
+
+/* navBar */
+.sidebar {
+  width: 296px;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: $primary;
+
+  .container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-bottom: 34px;
+    width: 151px;
+    height: 40px;
+  }
+
+  .sidebarList {
+    li {
+      margin-bottom: 29px;
+      cursor: pointer;
+    }
+
+    .material-icons {
+      margin-right: 18px;
+      vertical-align: bottom;
+    }
+  }
+
+  .user {
+    align-items: center;
+
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      vertical-align: bottom;
+      object-fit: cover;
+    }
+
+    .userName {
+      margin-bottom: 4px;
+    }
+
+    .userMail {
+      margin-bottom: 0;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+      color: $smallText;
+    }
+  }
+}
+
+

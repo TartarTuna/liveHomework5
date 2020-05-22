@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第五週切版作業</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrap d-flex">
+    <!-- 左邊layout -->
+    <div class="sidebar">
+      <div class="container d-flex padding-4">
+        <div class="nav">
+          <img class="logo" src="image/logo-ANSWER.svg" alt="logo">
+          <ul class="sidebarList mainTxt">
+            <li><i class="material-icons">insert_chart</i>Dashboard</li>
+            <li><i class="material-icons">forum</i>Question</li>
+            <a href="html/index.html">
+              <li><i class="material-icons">assignment</i>Assignment</li>
+            </a>
+            <li><i class="material-icons">video_library</i>Course</li>
+            <li><i class="material-icons">supervisor_account</i>Admin</li>
+            <li><i class="material-icons">settings</i>Settings</li>
+          </ul>
+        </div>
+
+        <div class="user d-flex">
+          <img class="mRight-2"
+            src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80"
+            alt="avator">
+          <div class="userContent">
+            <p class="userName mainTxt">Andy Chen</p>
+            <p class="userMail">andy0401@mail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 右邊區塊 -->
+    <div class="main flex-grow-1">
+      <div class="container padding-4">
+        <!-- 上方下拉選單 -->
+        <ul class="mainTitleArea d-flex align-items-center justify-content-between">
+          <li class="d-flex align-items-center">
+            <span class="mainTitle mr-46">Admin</span>
+            <div class="dropdown">
+              <a class="btn" href="#" role="button" id="" data-toggle="modal" data-target="#addAdminModal"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="material-icons align-bottom highLight mRight-1">add</i>
+                Add New Admin
+              </a>
+            </div>
+          </li>
+
+          <li class="mainAreaIcons">
+            <i class="material-icons align-bottom text">search</i>
+            <i class="material-icons align-bottom text ml-26">notifications_active</i>
+          </li>
+        </ul>
+
+        <!-- 表單 -->
+        <div class="admins">
+          <table class="table table-hover">
+            <thead class="mainTxt">
+              <tr>
+                <th scope="col">ID
+                  <i class="material-icons align-bottom highLight">arrow_downward</i>
+                </th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Verified</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">#1</td>
+                <td>Emir Wicks</td>
+                <td>emir.wicks@mail.com</td>
+                <td>Yes</td>
+                <td class="text-right">
+                  <i class="material-icons align-bottom ">remove_red_eye</i>
+                  <i class="material-icons align-bottom ">edit</i>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">#2</td>
+                <td>Zaina Goldsmith</td>
+                <td>zaina.goldsmith@mail.com</td>
+                <td>Yes</td>
+                <td class="text-right">
+                  <i class="material-icons align-bottom ">remove_red_eye</i>
+                  <i class="material-icons align-bottom ">edit</i>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">#3</td>
+                <td>Mahima Lopez</td>
+                <td>Mahima.Lopez@mail.com</td>
+                <td>Yes</td>
+                <td class="text-right">
+                  <i class="material-icons align-bottom ">remove_red_eye</i>
+                  <i class="material-icons align-bottom ">edit</i>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">#4</td>
+                <td>Pharrell Murray</td>
+                <td>Pharrell.Murray@mail.com</td>
+                <td>Yes</td>
+                <td class="text-right">
+                  <i class="material-icons align-bottom ">remove_red_eye</i>
+                  <i class="material-icons align-bottom ">edit</i>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">#5</td>
+                <td>Annika Mcbride</td>
+                <td>Annika.Mcbride@mail.com</td>
+                <td>Yes</td>
+                <td class="text-right">
+                  <i class="material-icons align-bottom ">remove_red_eye</i>
+                  <i class="material-icons align-bottom ">edit</i>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">#6</td>
+                <td>Fatimah Clark</td>
+                <td>Fatimah.Clark@mail.com</td>
+                <td>Yes</td>
+                <td class="text-right">
+                  <i class="material-icons align-bottom ">remove_red_eye</i>
+                  <i class="material-icons align-bottom ">edit</i>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">#7</td>
+                <td>Klaudia Rhodes</td>
+                <td>Klaudia.Rhodes@mail.com</td>
+                <td>Yes</td>
+                <td class="text-right">
+                  <i class="material-icons align-bottom ">remove_red_eye</i>
+                  <i class="material-icons align-bottom ">edit</i>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">#8</td>
+                <td>Tillie Lucero</td>
+                <td>Tillie.Lucero@mail.com</td>
+                <td>Yes</td>
+                <td class="text-right">
+                  <i class="material-icons align-bottom ">remove_red_eye</i>
+                  <i class="material-icons align-bottom ">edit</i>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">#9</td>
+                <td>Sabrina Stephenson</td>
+                <td>Sabrina.Stephenson@mail.com</td>
+                <td>Yes</td>
+                <td class="text-right">
+                  <i class="material-icons align-bottom ">remove_red_eye</i>
+                  <i class="material-icons align-bottom ">edit</i>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">#10</td>
+                <td>Annie Smith</td>
+                <td>Annie.Smith@mail.com</td>
+                <td>Yes</td>
+                <td class="text-right">
+                  <i class="material-icons align-bottom ">remove_red_eye</i>
+                  <i class="material-icons align-bottom ">edit</i>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 分頁按鈕 -->
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-end">
+            <li class="page-item">
+              <a class="previous page-link" href="#" aria-label="Previous">
+                <i class="material-icons">chevron_left</i>
+              </a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="next page-link" href="#" aria-label="Next">
+                <i class="material-icons">chevron_right</i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- 新增管理者彈窗 -->
+        <div class="addAdminModal modal fade" id="addAdminModal" tabindex="-1" role="dialog"
+          aria-labelledby="addAdminModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <p class="modal-title" id="addAdminModalLabel">Edit Admin</p>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <legend class="pBottoom-4">Account</legend>
+                  <div class="formContent pBottoom-4">
+                    <label for="accountName">Name</label>
+                    <input type="text" class="inputBox" id="accountName">
+                  </div>
+                  <div class="formContent pBottoom-6">
+                    <label for="accountEmail">Email</label>
+                    <input type="text" class="inputBox" id="accountEmail">
+                  </div>
+                </form>
+
+                <div class="verification">
+                  <p class="verTitle">Verification</p>
+                  <div class="verificationWarning d-flex align-items-center">
+                    <i class="material-icons">warning</i>
+                    <p>Unverified</p>
+                  </div>
+                  <button type="button" class="btn w-100 font-weight-bold">
+                    Send Verification Mail
+                  </button>
+                </div>
+
+                <div class="AccessLevel">
+                  <p class="LevelTitle">Access Level</p>
+                  <select>
+                    <option>-Choose access level-</option>
+                    <option value="Lv1">Lv.1</option>
+                    <option value="Lv2">Lv.2</option>
+                    <option value="Lv3">Lv.3</option>
+                  </select>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline outlineBtn" data-dismiss="modal">Cancel</button>
+                  <button type="button" class="btn fillBtn mLeft-2 replyBtn">Add</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

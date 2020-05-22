@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Lato', sans-serif,'Roboto Mono', monospace;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+input, select, textarea {
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+.list-group-item.active {
+  background-color: $primary;
+  border-color: $border;
+  color: $text;
+}
+
+a {
+  color: $text;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $text;
+  text-decoration: none;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: $primary;
+}

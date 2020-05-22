@@ -1,0 +1,145 @@
+//color
+.highLight {
+  color: $highLight;
+}
+
+.text {
+  color: $text;
+}
+
+.smallTextLight {
+  color: $smallTextLight;
+}
+
+// space
+.padding-4 {
+  padding: 32px;
+}
+
+.padding-12 {
+  padding: 12px;
+}
+
+.pBottom-1 {
+  padding-bottom: 4px;
+}
+
+.pBottoom-2 {
+  padding-bottom: 8px;
+}
+
+.pBottoom-4 {
+  padding-bottom: 16px;
+}
+
+.pBottoom-6 {
+  padding-bottom: 24px;
+}
+
+.pTop-4 {
+  padding-top: 16px;
+} 
+
+.mRight-0 {
+  margin-right: 0;
+}
+
+.mRight-1 {
+  margin-right: 8px;
+}
+
+.mRight-2 {
+  margin-right: 16px;
+}
+
+.mRight-4 {
+  margin-right: 32px;
+}
+
+.mr-46 {
+  margin-right: 46px;
+}
+
+.ml-26 {
+  margin-left: 26px;
+}
+
+.mLeft-1 {
+  margin-left: 8px;
+}
+
+.mLeft-2 {
+  margin-left: 16px;
+}
+
+.mLeft-3 {
+  margin-left: 24px;
+}
+
+.mBottom-1 {
+  margin-bottom: 6px;
+}
+
+
+
+
+//font
+.mainTitle {
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: bold;
+}
+
+.mainTxt {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: $text;
+}
+
+.smallTxt {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $text;
+}
+
+.smallTxt-light {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $smallTextLight;
+}
+
+.contentTxt {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: $text;
+}
+
+//Button
+.outlineBtn {
+  padding: 8px 32px;
+  border: 1px solid $highLight;
+  border-radius: 2px;
+  color: $highLight;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.fillBtn {
+  padding: 8px 32px;
+  background-color: $highLight;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+//decoration 
+.td-no {
+  text-decoration: none;
+}

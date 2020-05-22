@@ -1,0 +1,180 @@
+@import"_variable";
+
+.admins {
+    margin-bottom: 63px;
+    thead {
+        th {
+            border-top:  none;
+            border-bottom: 1px solid $text;
+            padding-bottom: 4px;
+            padding-left: 0;
+        }
+    
+        .material-icons {
+            font-size: 18px;
+            margin-left: 7px;
+            vertical-align: bottom;
+            line-height: 24px;
+        }
+    }
+
+    tbody {
+        td {    
+            padding-left: 0;
+            padding-top: 21px;
+            margin-bottom: 17.5px;
+            border-bottom: 1px solid $border;
+        }
+
+        .material-icons {
+            margin-left: 25px;
+        }
+    }
+
+}
+
+.main {
+    .pagination {
+        .page-link {
+            padding: 6.5px 11.5px;
+            line-height: 19.5px;
+            color: $text;
+            border-color: $highLight;
+        }
+        .previous, .next {
+            padding: 4px;
+            line-height: 0;
+            color: $highLight;
+        }
+
+        .active {
+            .page-link {
+                border: 1px solid $highLight;
+                background-color: $highLight;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.addAdminModal {
+    .modal-header{
+        padding: 32px;
+        border-bottom: none;
+    }
+
+    .modal-body {
+        padding: 0px 32px 16px 32px;
+
+        form {
+            border-bottom: 1px solid $primary;
+        }
+    }
+
+    .modal-footer {
+        padding: 0;
+        padding-top: 16px;
+    }
+
+    .modal-title {
+        font-size: 24px;
+        line-height: 33px;
+        font-weight: bold;
+        color: $text;
+    }
+
+    legend {
+        margin-bottom: 0;
+        font-size: 20px;
+        line-height: 33px;
+        font-weight: bold;
+        color: $text;
+    }
+
+    .formContent {
+        label {
+            margin-bottom: 0;
+            padding-bottom: 4px;
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        .inputBox {
+            display: block;
+            width: 100%;
+            height: 51px;
+            border: 1px solid $text;
+            border-radius: 2px;
+            background-color: #fff;
+            padding: 6px;
+            line-height: 19px;
+        }
+    }
+}
+
+.verification {
+    padding-bottom: 24.5px;
+    border-bottom: 1px solid $primary;
+
+    .verTitle {
+        margin-bottom: 0;
+        padding-bottom: 18px;
+        font-size: 20px;
+        line-height: 33px;
+        font-weight: bold;
+        color: $text;
+    }
+
+    .btn {
+        left: 51px;
+        font-size: 16px;
+        line-height: 33px;
+        color: $highLight;
+        border: 1px solid $primary;
+        border-radius: 2px;
+    }
+
+    .verificationWarning {
+        margin-bottom: 0;
+        padding-bottom: 18px;
+        font-size: 16px;
+        line-height: 33px;
+        font-weight: bold;
+
+        p {
+            margin-bottom: 0;
+            padding: 0;
+            line-height: 1;
+        }
+
+        .material-icons {
+            margin-right: 9px;
+            color: #E3006E;
+        }
+    }
+}
+
+.AccessLevel {
+    padding: 24.5px 0;
+
+    .LevelTitle {
+        margin-bottom: 0;
+        padding-bottom: 16px;
+        font-size: 20px;
+        line-height: 33px;
+        font-weight: bold;
+        color: $text;
+    }
+
+    select {
+        color: $smallText;
+        display: block;
+        width: 100%;
+        border-radius: 2px;
+        border: 1px solid $text;
+        padding: 16px;
+        background-color: #fff;
+        line-height: 24px;
+    }
+}
+
